@@ -2,7 +2,7 @@
 
 ## Algorithms
 
-- [x] LinkedList
+- [x] LinkedList (Reverse)
 - [ ] Doubily LinkedList
 - [ ] Stack
 - [ ] Queue
