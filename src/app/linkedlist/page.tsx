@@ -79,8 +79,8 @@ const LinkedListUI = () => {
                   width: 0,
                   height: 0,
                   backgroundColor: "#EF3054",
+                  fontSize: 0,
                   transition: {
-                    delay: 0,
                     duration: animationDuration.duration,
                   },
                 }}
@@ -100,6 +100,7 @@ const LinkedListUI = () => {
                     opacity: 0,
                     width: 0,
                     height: 0,
+                    transition: { delay: 0.25 },
                   }}
                   transition={animationDuration}
                   width="50px"
@@ -115,8 +116,15 @@ const LinkedListUI = () => {
                     strokeLinecap="round"
                     strokeLinejoin="round"
                     initial={{ pathLength: 0, pathOffset: 1 }}
-                    animate={{ pathLength: 1, pathOffset: 0 }}
-                    exit={{ pathLength: 0, pathOffset: 1 }}
+                    animate={{
+                      pathLength: 1,
+                      pathOffset: 0,
+                    }}
+                    exit={{
+                      pathLength: 0,
+                      pathOffset: 1,
+                      transition: { delay: 0.25 },
+                    }}
                     transition={animationDuration}
                   />
                 </motion.svg>
