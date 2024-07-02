@@ -4,8 +4,13 @@
 
 - [x] LinkedList (Reverse)
 - [ ] Doubily LinkedList
-- [ ] Stack
-- [ ] Queue
+- [x] Stack
+- [x] Queue
+- [ ] Binary Search Tree
 - [ ] Quick Sort
 - [ ] Bubble Sort
 - [ ] Merge Sort
+
+## TODO
+
+- Polish animations
