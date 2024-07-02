@@ -10,6 +10,14 @@ const Algorithms = [
     name: "Doubly Linked List",
     url: "#",
   },
+  {
+    name: "Stack",
+    url: "stack",
+  },
+  {
+    name: "Queue",
+    url: "queue",
+  },
 ];
 export default function Home() {
   return (
